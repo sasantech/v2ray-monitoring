@@ -22,8 +22,7 @@ Professional V2Ray (VLESS/VMess) Node Monitor with Telegram Alerts, Auto-Cleanup
 
 ```bash
 # نصب پیش‌نیازها
-apt update && apt install python3 python3-pip curl -y
-pip3 install requests
+bash <(curl -Ls https://raw.githubusercontent.com/sasantech/v2ray-monitoring/main/monitoring.sh)
 
 # اجرای اسکریپت
 python3 manager.py
