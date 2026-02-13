@@ -20,9 +20,10 @@ Professional V2Ray (VLESS/VMess) Node Monitor with Telegram Alerts, Auto-Cleanup
 
 برای اجرای اسکریپت، ابتدا پیشنیازها را نصب کرده و سپس اسکریپت را اجرا کنید:
 
-```bash
 # نصب پیش‌نیازها
+```bash
 bash <(curl -Ls https://raw.githubusercontent.com/sasantech/v2ray-monitoring/main/monitoring.sh)
 
 # اجرای اسکریپت
+```bash
 python3 manager.py
